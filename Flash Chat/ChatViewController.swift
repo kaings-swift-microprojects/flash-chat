@@ -9,6 +9,7 @@
 import UIKit
 import Firebase
 import SVProgressHUD
+import ChameleonFramework
 
 class ChatViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UITextFieldDelegate {
     
@@ -46,6 +47,7 @@ class ChatViewController: UIViewController, UITableViewDelegate, UITableViewData
         configureTableView()
         
         retrieveMessages()  // put retrieveMessages function here will also load the message on this viewDidLoad init and also when every new value is added on .childAdded
+        messageTableView.separatorStyle = .none    // remove the line separator in the UITableView
     }
 
     ///////////////////////////////////////////
@@ -66,6 +68,16 @@ class ChatViewController: UIViewController, UITableViewDelegate, UITableViewData
         cell.messageBody.text = messageArray[indexPath.row].messageBody
         cell.senderUsername.text = messageArray[indexPath.row].sender
         cell.avatarImageView.image = UIImage(named: "egg")
+        
+        // set different background color using ChameleonFramework based on sender
+        if cell.senderUsername.text == Auth.auth().currentUser?.email {
+            cell.avatarImageView.backgroundColor = UIColor.flatYellow()
+            cell.messageBackground.backgroundColor = UIColor.flatYellow()
+        } else {
+            cell.avatarImageView.backgroundColor = UIColor.flatPurple()
+            cell.messageBackground.backgroundColor = UIColor.flatPurple()
+        }
+        
         
         return cell
     }
