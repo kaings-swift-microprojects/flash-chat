@@ -102,6 +102,11 @@ class ChatViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     //TODO: Declare textFieldDidEndEditing here:
     func textFieldDidEndEditing(_ textField: UITextField) {
+        
+        UIView.animate(withDuration: 0.5) {
+            self.heightConstraint.constant = 50.0   // adjust the constant of the heightConstraint to back to initial position when cursor is out of textfield
+            self.view.layoutIfNeeded()   // reload the view (ChatViewController)
+        }
     }
 
     
