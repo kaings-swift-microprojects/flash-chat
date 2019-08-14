@@ -41,6 +41,7 @@ class ChatViewController: UIViewController, UITableViewDelegate, UITableViewData
         //TODO: Register your MessageCell.xib file here: Register the CustomMessageCell in order to be able to use
         messageTableView.register(UINib(nibName: "MessageCell", bundle: nil), forCellReuseIdentifier: "customMessageCell")
         
+        configureTableView()
     }
 
     ///////////////////////////////////////////
@@ -75,7 +76,10 @@ class ChatViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     
     //TODO: Declare configureTableView here:
-    
+    func configureTableView() {
+        messageTableView.rowHeight = UITableView.automaticDimension     // auto adjust row height
+        messageTableView.estimatedRowHeight = 120.0
+    }
     
     
     ///////////////////////////////////////////
