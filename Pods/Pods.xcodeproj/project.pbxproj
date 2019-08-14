@@ -5319,6 +5319,7 @@
 			baseConfigurationReference = E7166E34822D5F7260FB15C3891D45DB /* Pods-Flash Chat.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_WARN_DOCUMENTATION_COMMENT = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -5351,6 +5352,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4E62FC5D5D3C944FF6BB7E1CA5B6430F /* FirebaseCore.xcconfig */;
 			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENT = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -5382,6 +5384,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 25D4EDF8F7A0B31448B3E5AB6CFE8179 /* GoogleUtilities.xcconfig */;
 			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENT = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -5415,6 +5418,7 @@
 			baseConfigurationReference = 59AB5BDA400808F210CEC94907DCD946 /* Pods-Flash Chat.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_WARN_DOCUMENTATION_COMMENT = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -5448,6 +5452,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D8CD527EE29E71BD0187FB254A637723 /* leveldb-library.xcconfig */;
 			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENT = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -5480,6 +5485,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1C393CB7CF8635811E209B781703D8FA /* GTMSessionFetcher.xcconfig */;
 			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENT = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -5511,6 +5517,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D0945F5D7DD09E48B7CA76586CF64CDF /* GoogleDataTransportCCTSupport.xcconfig */;
 			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENT = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -5544,6 +5551,7 @@
 			baseConfigurationReference = DFAEBB5D827E8B50DC15B25AC05623ED /* FirebaseCoreDiagnosticsInterop.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DOCUMENTATION_COMMENT = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -5557,6 +5565,7 @@
 			baseConfigurationReference = 1CC1C408A8CF21AD443780370DFED62B /* FirebaseAuthInterop.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DOCUMENTATION_COMMENT = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -5570,6 +5579,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F6C64BA866E204DDFBBD569F9EB0BBE7 /* GoogleDataTransport.xcconfig */;
 			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENT = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -5601,6 +5611,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 24EC764C434DF144750093B1E3D4D93F /* nanopb.xcconfig */;
 			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENT = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -5633,6 +5644,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CDA117FEC1EFFA6D5A814A5C40C9021D /* FirebaseInstanceID.xcconfig */;
 			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENT = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -5664,6 +5676,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A23782BFD4D9FAB0FEA7DC9F00F7590C /* FirebaseDatabase.xcconfig */;
 			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENT = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -5696,6 +5709,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D8CD527EE29E71BD0187FB254A637723 /* leveldb-library.xcconfig */;
 			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENT = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -5727,6 +5741,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B9F401DA7AD941C3054E65029B8CB3A3 /* FirebaseAuth.xcconfig */;
 			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENT = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -5758,6 +5773,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D8AEE8446BEE029F96C6462E64BB935C /* ChameleonFramework.xcconfig */;
 			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENT = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -5790,6 +5806,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4E62FC5D5D3C944FF6BB7E1CA5B6430F /* FirebaseCore.xcconfig */;
 			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENT = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -5822,6 +5839,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1C393CB7CF8635811E209B781703D8FA /* GTMSessionFetcher.xcconfig */;
 			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENT = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -5855,6 +5873,7 @@
 			baseConfigurationReference = 0CC4E597C7E9995A10D4B9005B7E1BDF /* FirebaseAnalytics.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DOCUMENTATION_COMMENT = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -5867,6 +5886,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 24EC764C434DF144750093B1E3D4D93F /* nanopb.xcconfig */;
 			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENT = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -5898,6 +5918,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 25D4EDF8F7A0B31448B3E5AB6CFE8179 /* GoogleUtilities.xcconfig */;
 			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENT = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -5930,6 +5951,7 @@
 			baseConfigurationReference = 8CC48C93B2EBF25C483A2210E6CDBFA2 /* Firebase.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DOCUMENTATION_COMMENT = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -6066,6 +6088,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A703CF81FD3EE54E3F80C0D8325DDBAC /* SVProgressHUD.xcconfig */;
 			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENT = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -6099,6 +6122,7 @@
 			baseConfigurationReference = 8CC48C93B2EBF25C483A2210E6CDBFA2 /* Firebase.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DOCUMENTATION_COMMENT = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -6112,6 +6136,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CDA117FEC1EFFA6D5A814A5C40C9021D /* FirebaseInstanceID.xcconfig */;
 			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENT = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -6145,6 +6170,7 @@
 			baseConfigurationReference = C7F626841C98849B2A6A5D37E9F0CCEC /* GoogleAppMeasurement.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DOCUMENTATION_COMMENT = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -6158,6 +6184,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D8AEE8446BEE029F96C6462E64BB935C /* ChameleonFramework.xcconfig */;
 			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENT = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -6189,6 +6216,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A703CF81FD3EE54E3F80C0D8325DDBAC /* SVProgressHUD.xcconfig */;
 			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENT = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -6221,6 +6249,7 @@
 			baseConfigurationReference = 1CC1C408A8CF21AD443780370DFED62B /* FirebaseAuthInterop.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DOCUMENTATION_COMMENT = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -6234,6 +6263,7 @@
 			baseConfigurationReference = 0CC4E597C7E9995A10D4B9005B7E1BDF /* FirebaseAnalytics.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DOCUMENTATION_COMMENT = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -6247,6 +6277,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CA7FC762DD0AD5B49CCC36A99BC2ADA3 /* FirebaseCoreDiagnostics.xcconfig */;
 			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENT = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -6279,6 +6310,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D0945F5D7DD09E48B7CA76586CF64CDF /* GoogleDataTransportCCTSupport.xcconfig */;
 			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENT = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -6310,6 +6342,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CA7FC762DD0AD5B49CCC36A99BC2ADA3 /* FirebaseCoreDiagnostics.xcconfig */;
 			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENT = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -6341,6 +6374,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F6C64BA866E204DDFBBD569F9EB0BBE7 /* GoogleDataTransport.xcconfig */;
 			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENT = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -6374,6 +6408,7 @@
 			baseConfigurationReference = C7F626841C98849B2A6A5D37E9F0CCEC /* GoogleAppMeasurement.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DOCUMENTATION_COMMENT = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -6387,6 +6422,7 @@
 			baseConfigurationReference = DFAEBB5D827E8B50DC15B25AC05623ED /* FirebaseCoreDiagnosticsInterop.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DOCUMENTATION_COMMENT = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -6400,6 +6436,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B9F401DA7AD941C3054E65029B8CB3A3 /* FirebaseAuth.xcconfig */;
 			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENT = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -6432,6 +6469,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A23782BFD4D9FAB0FEA7DC9F00F7590C /* FirebaseDatabase.xcconfig */;
 			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENT = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
