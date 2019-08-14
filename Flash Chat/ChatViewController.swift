@@ -8,7 +8,7 @@
 
 import UIKit
 import Firebase
-
+import SVProgressHUD
 
 class ChatViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UITextFieldDelegate {
     
@@ -25,6 +25,8 @@ class ChatViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        SVProgressHUD.show()
         
         //TODO: Set yourself as the delegate and datasource here:
         messageTableView.delegate = self    // all actions towards tableview will be notified (delegated) to ChatViewController
@@ -172,6 +174,8 @@ class ChatViewController: UIViewController, UITableViewDelegate, UITableViewData
             
             self.messageArray.append(message)
             self.messageTableView.reloadData()  // reload the UITableView so that new message will be reflected
+            
+            SVProgressHUD.dismiss()
         }
     }
     
