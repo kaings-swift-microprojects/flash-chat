@@ -20,8 +20,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //TODO: Initialise and Configure your Firebase here:
         FirebaseApp.configure()
         
-        let myDatabase = Database.database().reference()
-        myDatabase.setValue("Testing Firebase Database!")
+        // commented because these line will Re-set the database value to "Testing Firebase Database!" each time the app is restarted
+        // let myDatabase = Database.database().reference()
+        // myDatabase.setValue("Testing Firebase Database!")
         
         return true
     }
