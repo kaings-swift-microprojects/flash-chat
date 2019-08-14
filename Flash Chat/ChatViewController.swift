@@ -34,9 +34,9 @@ class ChatViewController: UIViewController, UITableViewDelegate, UITableViewData
         messageTextfield.delegate = self // to subscribe/delegate ChatViewController to the event that occurs on UITextField. which is why we implements UITextFieldDelegate
         
         
-        //TODO: Set the tapGesture here:
-        
-        
+        //TODO: Set the tapGesture here:    // add tap gesture to the UITableView, so when messageTableView(UITableView) is clicked, it will trigger the tableViewTapped()
+        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(tableViewTapped))
+        messageTableView.addGestureRecognizer(tapGesture)
 
         //TODO: Register your MessageCell.xib file here: Register the CustomMessageCell in order to be able to use
         messageTableView.register(UINib(nibName: "MessageCell", bundle: nil), forCellReuseIdentifier: "customMessageCell")
@@ -72,7 +72,10 @@ class ChatViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     
     //TODO: Declare tableViewTapped here:
-    
+    @objc  // added @objc because #selector is objective-C command, in order for this to work, need to add this
+    func tableViewTapped() {
+        messageTextfield.endEditing(true)   // this will trigger textFieldDidEndEditing event
+    }
     
     
     //TODO: Declare configureTableView here:
@@ -100,7 +103,7 @@ class ChatViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     
     
-    //TODO: Declare textFieldDidEndEditing here:
+    //TODO: Declare textFieldDidEndEditing here:    this function needs to be manually triggered!!
     func textFieldDidEndEditing(_ textField: UITextField) {
         
         UIView.animate(withDuration: 0.5) {
