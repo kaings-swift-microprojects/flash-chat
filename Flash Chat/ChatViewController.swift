@@ -91,8 +91,11 @@ class ChatViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     //TODO: Declare textFieldDidBeginEditing here:
     func textFieldDidBeginEditing(_ textField: UITextField) {
-        heightConstraint.constant = 308.0   // adjust the constant of the heightConstraint to 308 when cursor in textfield to cater space for keyboard
-        view.layoutIfNeeded()   // reload the view (ChatViewController)
+    
+        UIView.animate(withDuration: 0.5) {
+            self.heightConstraint.constant = 308.0   // adjust the constant of the heightConstraint to 308 when cursor in textfield to cater space for keyboard
+            self.view.layoutIfNeeded()   // reload the view (ChatViewController)
+        }
     }
     
     
